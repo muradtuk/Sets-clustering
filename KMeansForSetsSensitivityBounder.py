@@ -26,7 +26,7 @@ import copy
 
 RHO = 2.0
 
-
+# The following class is our main class which is responsible for bounding the sensitivity of any input sets of sets with respect to the sets clustering problem.
 
 class KMeansForSetsSensitivityBounder(object):
     def __init__(self, set_P, k, fig=None, ax=None):
